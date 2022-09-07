@@ -1,9 +1,9 @@
-// importing and initializing express
+// importing and initializing express, the core of our app that handles the API part 
 const express = require('express')
 const app = express()
 // importing mongoose: MVC applied to mongo in node
 const mongoose = require('mongoose')
-// 
+// importing passport: package to help handle authentication using Strategies
 const passport = require('passport')
 const session = require('express-session')
 // Using Mongo to store session information
